@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="place">
+        <item>家</item>
+        <item>公司</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="action">
+        <item>工作</item>
+        <item>睡觉</item>
+        <item>通勤</item>
+        <item>玩手机</item>
+    </string-array>
+</resources>
