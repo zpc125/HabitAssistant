@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="知心"
+                android:textSize="50sp">
+            </TextView>
+    </LinearLayout>
+
+    <!--输入框-->
+    <EditText
+        android:id="@+id/et_userName"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="4dp"
+        android:theme="@style/MyEditText"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/account"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="60dp"
+        android:hint="账号"
+        android:textSize="20sp" />
+    <!--输入框-->
+    <EditText
+        android:id="@+id/et_psw"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="密码"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/pwd"
+        android:textColor="@color/white"
+        android:paddingLeft="5dp"
+        android:theme="@style/MyEditText"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:inputType="textPassword"/>
+
+    <!--输入框-->
+    <EditText
+        android:id="@+id/et_valiatePsw"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="密码"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/pwd"
+        android:textColor="@color/white"
+        android:paddingLeft="5dp"
+        android:theme="@style/MyEditText"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/tv_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/orange"
+        android:paddingLeft="20dp"/>
+    <!--按钮-->
+    <Button
+        android:id="@+id/btn_register"
+        android:text="注  册"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
